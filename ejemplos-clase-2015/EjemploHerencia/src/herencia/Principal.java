@@ -16,12 +16,21 @@ public class Principal {
 		
 		System.out.println(h.getDescipcionClase());
 		System.out.println(h.metodoHijo());
+		System.out.print("Hijo:");
+		System.out.println(h instanceof Hijo);
+		System.out.print("Padre:");
+		System.out.println(h instanceof Padre);
+		
 		
 		System.out.println("h2");
-		Padre h2=new Hijo();//boxing
+		Padre h2=new Hijo("Hijo", "Padre");//boxing
 		
 		System.out.println(h2.getDescipcionClase());
 		System.out.println(((Hijo)h2).metodoHijo());//debo hacer casteo o unboxing para usar los métodos de la subclase
+		System.out.print("Hijo:");
+		System.out.println(h2 instanceof Hijo);
+		System.out.print("Padre:");
+		System.out.println(h2 instanceof Padre);
 	}
 
 }

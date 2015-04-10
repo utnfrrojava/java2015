@@ -5,7 +5,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("p");
-		Padre p=new Padre();
+		Padre p=new Padre();//da error porque no tengo un constructor por defecto
 		p.setClase("Padre");
 		p.setTipo("Padre");
 		

@@ -20,4 +20,6 @@ public class Padre {
 		setClase(clase);
 		setTipo(tipo);
 	}
+	
+	public Padre(){} //creo un constructor sin parametros para que no de error
 }

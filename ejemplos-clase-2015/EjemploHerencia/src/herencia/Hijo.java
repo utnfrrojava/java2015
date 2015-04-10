@@ -5,5 +5,9 @@ public class Hijo extends Padre{ //extends se utiliza para indicar que Hijo here
 		super("Hijo","Hijo");//invoco al constructor padre con parametros
 		//los constructores no se heredan implicitamente
 	}
+	
+	public String metodoHijo(){
+		return "Metodo específico de la clase Hijo";
+	}
 
 }

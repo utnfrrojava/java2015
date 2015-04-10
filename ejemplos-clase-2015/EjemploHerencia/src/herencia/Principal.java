@@ -9,12 +9,19 @@ public class Principal {
 		p.setClase("Padre");
 		p.setTipo("Padre");
 		
-		System.out.println("Clase:"+p.getClase()+"\nTipo:"+p.getTipo());
+		System.out.println(p.getDescipcionClase());
 		
 		System.out.println("h");
 		Hijo h=new Hijo(); //las clases hijas heredan los métodos de la clase padre
 		
-		System.out.println("Clase:"+h.getClase()+"\nTipo:"+h.getTipo());
+		System.out.println(h.getDescipcionClase());
+		System.out.println(h.metodoHijo());
+		
+		System.out.println("h2");
+		Padre h2=new Hijo();//boxing
+		
+		System.out.println(h2.getDescipcionClase());
+		System.out.println(h2.metodoHijo());//por el tipo de la variable no puede asegurar que ese método exista
 	}
 
 }

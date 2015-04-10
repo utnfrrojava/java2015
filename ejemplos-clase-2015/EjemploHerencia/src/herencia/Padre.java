@@ -22,4 +22,8 @@ public class Padre {
 	}
 	
 	public Padre(){} //creo un constructor sin parametros para que no de error
+	
+	public String getDescipcionClase(){
+		return "Clase:"+this.getClase()+"\nTipo:"+this.getTipo();
+	}
 }

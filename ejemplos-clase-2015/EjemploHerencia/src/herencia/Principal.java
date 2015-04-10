@@ -21,7 +21,7 @@ public class Principal {
 		Padre h2=new Hijo();//boxing
 		
 		System.out.println(h2.getDescipcionClase());
-		System.out.println(h2.metodoHijo());//por el tipo de la variable no puede asegurar que ese método exista
+		System.out.println(((Hijo)h2).metodoHijo());//debo hacer casteo o unboxing para usar los métodos de la subclase
 	}
 
 }

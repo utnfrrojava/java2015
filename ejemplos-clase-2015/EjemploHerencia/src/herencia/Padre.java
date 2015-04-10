@@ -15,6 +15,9 @@ public class Padre {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	
-	
+	//al crear un constructor con parametros desaparece el constructor por defecto
+	public Padre(String clase, String tipo){
+		setClase(clase);
+		setTipo(tipo);
+	}
 }

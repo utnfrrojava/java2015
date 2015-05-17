@@ -8,6 +8,7 @@ Aquí podrán encontrar los ejemplos dictados en clase, información relacionada
 En el directorio [ejemplos-clase-2015](./ejemplos-clase-2015/) van a poder encontrar los ejercicios realizados en clase
 
 Cada clase es taggeada en una o más etapa para facilitar la comprensión con el siguiente formato: clases/NROCLASE.ETAPA
+
 1. *Tags clase 1:* [clases/1.0](../../tree/clases/1.0/)
 
 2. *Tags clase 2:*

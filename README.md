@@ -20,5 +20,10 @@ Cada clase es taggeada en una o más etapa para facilitar la comprensión con el
   6. [clases/2.5](../../tree/clases/2.5/): Uso de cast para realizar unboxing.
   7. [clases/2.6](../../tree/clases/2.6/): Crear constructor de clase Hijo con parametros haciendo referencia al de clase Padre, sobreescribiendo metodo getDescipcionClase de clase Hijo y uso de instanceof.
 
+3. *Tags clase 3:*
+  1. [clases/3.0](../../tree/clases/3.0): Enunciados.
+  2. [clases/3.1](../../tree/clases/3.1): Ejercicio 1 resuelto.
+  3. [clases/3.2](../../tree/clases/3.2): Ejercicio 2 resuelto.
+
 ##Links a tutoriales
 El archivo [recursos.md](./material/recursos.md) contiene links a muchos tutoriales tanto de java como de desarrollo web

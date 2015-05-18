@@ -3,6 +3,7 @@ package general;
 import java.util.Scanner;
 
 import ejercicios.Ejercicio1;
+import ejercicios.Ejercicio2;
 
 public class Menu {
 
@@ -16,6 +17,7 @@ public class Menu {
 			new Ejercicio1().ejecutar();
 			break;
 		case "2":
+			new Ejercicio2().ejecutar();
 			break;
 		case "3":
 			break;

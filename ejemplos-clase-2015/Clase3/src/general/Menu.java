@@ -2,6 +2,7 @@ package general;
 
 import java.util.Scanner;
 
+import ejercicio3.Ejercicio3;
 import ejercicios.Ejercicio1;
 import ejercicios.Ejercicio2;
 
@@ -20,6 +21,7 @@ public class Menu {
 			new Ejercicio2().ejecutar();
 			break;
 		case "3":
+			new Ejercicio3().ejecutar();
 			break;
 		}
 

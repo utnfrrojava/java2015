@@ -26,5 +26,9 @@ Cada clase es taggeada en una o más etapa para facilitar la comprensión con el
   3. [clases/3.2](../../tree/clases/3.2): Ejercicio 2 resuelto.
   4. [clases/3.3](../../tree/clases/3.3): Ejercicio 3 resuelto.
 
+4. *Tags clase 4:*
+  1. [clases/4.0](../../tree/clases/4.0): Enunciados.
+  
+
 ##Links a tutoriales
 El archivo [recursos.md](./material/recursos.md) contiene links a muchos tutoriales tanto de java como de desarrollo web

@@ -28,7 +28,7 @@ Cada clase es taggeada en una o más etapa para facilitar la comprensión con el
 
 4. *Tags clase 4:*
   1. [clases/4.0](../../tree/clases/4.0): Enunciados.
-  
+  2. [clases/4.1](../../tree/clases/4.1): Ejercicios 1, 2 y 3 resueltos con ArrayList
 
 ##Links a tutoriales
 El archivo [recursos.md](./material/recursos.md) contiene links a muchos tutoriales tanto de java como de desarrollo web

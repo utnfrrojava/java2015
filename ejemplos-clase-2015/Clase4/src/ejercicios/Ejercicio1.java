@@ -1,5 +1,6 @@
 package ejercicios;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ejercicio1 {
@@ -8,17 +9,17 @@ public class Ejercicio1 {
 		
 		Scanner s=new Scanner(System.in);
 		
-		int[] nros=new int[15];
+		ArrayList<Integer> nros = new ArrayList<Integer>();
 		
 		for (int indice = 0; indice < 15; indice++) {
 			System.out.println("Ingrese el número "+String.valueOf(indice+1));
-			nros[indice]=Integer.parseInt(s.nextLine());
+			nros.add(Integer.parseInt(s.nextLine()));
 		}
 		
 		System.out.println("#######################");
 		System.out.println("Números en orden inverso");
-		for (int indice = nros.length-1; indice >=0; indice--) {
-			System.out.println(nros[indice]);
+		for (int indice = nros.size()-1; indice >=0; indice--) {
+			System.out.println(nros.get(indice));
 		}
 		s.close();
 		

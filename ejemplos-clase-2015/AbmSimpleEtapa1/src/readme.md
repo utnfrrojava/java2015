@@ -3,7 +3,7 @@
 ##Objetivo
 Desarrollar un abm de personas simple con capas:
 
-- UI 
+- UI
 - Controlador
 - Entidades
 - Datos

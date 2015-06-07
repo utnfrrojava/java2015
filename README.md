@@ -31,7 +31,13 @@ Cada clase es taggeada en una o más etapa para facilitar la comprensión con el
   2. [clases/4.1](../../tree/clases/4.1): Ejercicios 1, 2 y 3 resueltos con ArrayList
 
 5. *Tags clase 5:*
-  1. [Clases/5.0](../../tree/clases/5.0): Enunciado ABM Simple
+  1. [clases/5.0](../../tree/clases/5.0): Enunciado ABM Simple
+
+6. *Clase 6:* Continuación ABM Simple Etapa 1.
+
+7. *Tags clase 7:*
+  1. [clases/7.0](../../tree/clases/7.0): Solución ABM Simple Etapa 1.
+
 
 ##Links a tutoriales
 El archivo [recursos.md](./material/recursos.md) contiene links a muchos tutoriales tanto de java como de desarrollo web

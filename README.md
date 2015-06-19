@@ -38,6 +38,9 @@ Cada clase es taggeada en una o más etapa para facilitar la comprensión con el
 7. *Tags clase 7:*
   1. [clases/7.0](../../tree/clases/7.0): Solución ABM Simple Etapa 1.
 
+8. *Tags clase 8:*
+  1. [clases/8.0](../../tree/clases/8.0): Ejemplo básico JDBC.
+
 
 ##Links a tutoriales
 El archivo [recursos.md](./material/recursos.md) contiene links a muchos tutoriales tanto de java como de desarrollo web

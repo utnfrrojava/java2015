@@ -179,7 +179,9 @@ public class ABMPersona {
 	}
 
 	protected void guardar() {
-		ctrlPer.save(this.mapearDeDatos());
+		Persona p= this.mapearDeDatos();
+		ctrlPer.save(p);
+		//txtId.setText(String.valueOf(p.getId()));
 	}
 
 	protected void buscar() {

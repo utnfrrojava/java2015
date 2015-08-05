@@ -19,6 +19,10 @@ Se realizará en equipos de no más de  3 alumnos. En la solución se debe utili
 1. Aplicación de escritorio con almacenamiento de la información en base de datos.
 2. Aplicación web con almacenamiento de la información en base de datos.
 
+######Fechas de Entrega
+- *Etapa 1: 9 de Octubre*
+- *Etapa 2: 6 de Noviembre*
+
 #####Enunciado
 Se desea realizar un sistema de un juego de ajedrez.
 Para el mismo ya se cuenta con un conjunto de jugadores previamente almacenados. De los mismos se conoce el DNI, nombre y apellido.

@@ -3,6 +3,8 @@ Este repositorio corresponde a la cátedra de Java de la UTN FRRo.
 
 Aquí podrán encontrar los ejemplos dictados en clase, información relacionada referente a cada tema y material ultil relacionado.
 
+## Trabajo Práctico 2015
+En [tp2015/enunciado.md](./tp2015/enunciado.md) van a poder encontrar el enunciado del trabajo práctico del año 2015.
 
 ## Clases
 En el directorio [ejemplos-clase-2015](./ejemplos-clase-2015/) van a poder encontrar los ejercicios realizados en clase

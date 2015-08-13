@@ -53,14 +53,59 @@ public class DataPersona {
 	}
 	
 	public void update(Persona newPer){
-		Persona oldPer = this.getByDni(newPer.getDni());
-		oldPer.setNombre(newPer.getNombre());
-		oldPer.setApellido(newPer.getApellido());
-		oldPer.setEmail(newPer.getEmail());
+		PreparedStatement stmt=null;
+		
+		try {
+			stmt = FactoryConexion.getInstancia().getConn().prepareStatement(
+					 "update personas set nombre=?, apellido=?, email=? where dni=?"
+					);
+			
+			stmt.setString(1, newPer.getNombre());
+			stmt.setString(2, newPer.getApellido());
+			stmt.setString(3, newPer.getEmail());
+			stmt.setInt(4, newPer.getDni());
+			stmt.execute();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally{
+			
+			try {
+				if(stmt != null) stmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			FactoryConexion.getInstancia().releaseConn();
+		}
 	}
 	
 	public void delete(Persona p){
-		colPersonas.remove(this.getByDni(p.getDni()));
+		PreparedStatement stmt=null;
+		
+		try {
+			stmt=FactoryConexion.getInstancia().getConn().prepareStatement(
+					  "delete from personas where dni=?"
+					);
+			stmt.setInt(1, p.getDni());
+			stmt.execute();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally{
+			
+			try {
+				if(stmt != null) stmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			FactoryConexion.getInstancia().releaseConn();
+		}
 	}
 	
 	public Persona getByDni(int dni){

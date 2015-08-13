@@ -176,6 +176,10 @@ public class ABMPersona {
 
 	protected void borrar() {
 		ctrlPer.delete(this.mapearDeDatos());
+		this.txtDni.setText("");
+		this.txtNombre.setText("");
+		this.txtApellido.setText("");
+		this.txtEmail.setText("");
 	}
 
 	protected void guardar() {

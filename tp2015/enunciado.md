@@ -38,3 +38,17 @@ Luego de cada jugada se deberá registrar el cambio del tablero ya que en cualqu
 Además de poder  ingresar los movimientos de la partida, el sistema deberá permitir que en todo momento se liste el estado del tablero: Un tablero indica entonces Ficha y posición, primero blancas y luego negras.
 
 El juego termina cuando un jugador elimina al rey del otro.
+
+######Reglas de Negocio
+
+- Cada partida posee: una identificación, 32 fichas (16 de cada color), dos jugadores, un turno.
+- Cada ficha posee, una posición, si esta en tablero (o fue comida) y pertenece a una clase de ficha.
+- Cada clase de ficha tiene un conjunto de reglas que determinan que clase de movimientos puede realizar. (Un método que permite verificar si es valido un movimiento propuesto.
+- El tablero identifica cada casilla (escaque) con una notación denominada algebraica:
+  - El primer carácter identifica siempre la columna de la casilla y se representa por una de las siguientes letras minúsculas: a - b - c - d - e - f - g - h. La columna de la casilla se ordena desde la izquierda del jugador con piezas blancas hasta su derecha.
+  - El segundo carácter identifica siempre la fila de la casilla y se representa por un número del 1 al 8, en orden ascendente, desde el lado del jugador de piezas blancas hasta el lado jugador de piezas negras.
+
+      ![Board](./board.png)
+
+  - Las casillas, en la posición inicial, de algunas piezas son: torre del lado de la dama blanca a1, dama blanca d1, torre del lado del rey negro h8.
+  - Cada pieza tiene una letra mayúscula asociada, y varía en función del idioma de quien realiza la notación. En Español utilizamos: R para el Rey - D para la dama - T para la Torre - A para el alfil - C para el caballo – P para los peones.

@@ -9,6 +9,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
+
+import appExceptions.ApplicationException;
+
 import javax.swing.JButton;
 
 import entidades.Persona;
@@ -184,7 +187,15 @@ public class ABMPersona {
 
 	protected void guardar() {
 		Persona p= this.mapearDeDatos();
-		ctrlPer.save(p);
+		
+			try {
+				ctrlPer.save(p);
+			} catch (ApplicationException ae) {
+				// TODO Auto-generated catch block
+				JOptionPane.showMessageDialog(null, ae.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+			}
+		
+		
 		//txtId.setText(String.valueOf(p.getId()));
 	}
 

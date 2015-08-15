@@ -1,16 +1,17 @@
 package data;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.sql.*;
 
 import entidades.Persona;
+import appExceptions.ApplicationException;
 
 public class DataPersona {
 	
-	private static ArrayList<Persona> colPersonas;
+	//private static ArrayList<Persona> colPersonas;
 	
 	public DataPersona(){
-		colPersonas = new ArrayList<Persona>();
+		//colPersonas = new ArrayList<Persona>();
 	}
 	
 	public void add(Persona p){
@@ -52,7 +53,7 @@ public class DataPersona {
 		}
 	}
 	
-	public void update(Persona newPer){
+	public void update(Persona newPer) throws ApplicationException{
 		PreparedStatement stmt=null;
 		
 		try {
@@ -68,7 +69,7 @@ public class DataPersona {
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ApplicationException("Error al actualizar datos de persona", e);
 		} finally{
 			
 			try {

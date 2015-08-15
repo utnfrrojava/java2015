@@ -1,5 +1,6 @@
 package negocio;
 
+import appExceptions.ApplicationException;
 import data.DataPersona;
 import entidades.Persona;
 
@@ -10,7 +11,7 @@ public class CtrlABMPersona {
 		catalogo = new DataPersona();
 	}
 	
-	public void save(Persona p){
+	public void save(Persona p) throws ApplicationException {
 		if (catalogo.getByDni(p.getDni())==null){
 			catalogo.add(p);
 		} else {

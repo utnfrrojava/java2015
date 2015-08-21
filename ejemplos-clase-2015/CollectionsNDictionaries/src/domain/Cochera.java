@@ -2,6 +2,8 @@ package domain;
 
 public class Cochera {
 	
+	//Esto es una prueba de git
+	
 	private char piso;
 	private int numeroCochera;
 	

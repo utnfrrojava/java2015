@@ -19,6 +19,8 @@ Se realizará en equipos de no más de  3 alumnos. En la solución se debe utili
 1. Aplicación de escritorio con almacenamiento de la información en base de datos.
 2. Aplicación web con almacenamiento de la información en base de datos.
 
+La aplicación deberá desarrollarse en equipos utilizando un repositorio git usando un servidor gratuito, por ejemplo github.com, gitlab.com o bitbucket.com. Las entregas se harán enviando el link al repositorio indicando el tag en el repositorio correspondiente a la entrega.
+
 ######Fechas de Entrega
 - *Etapa 1: 9 de Octubre*
 - *Etapa 2: 6 de Noviembre*

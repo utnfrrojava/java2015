@@ -18,24 +18,24 @@ public class Cochera {
 		this.numeroCochera = numeroCochera;
 	}
 	
-	public Cochera(char col, int numeroCochera){
-		this.setPiso(col);
+	public Cochera(char piso, int numeroCochera){
+		this.setPiso(piso);
 		this.setNumeroCochera(numeroCochera);
 	}
 	
-	/*
+	
 	@Override
 	public int hashCode(){
-		return Character.hashCode(getCol())*Integer.hashCode(getFila());
+		return Character.hashCode(getPiso())*Integer.hashCode(getNroCochera());
 		
 	}
 	
 	
 	@Override
 	public boolean equals (Object pos){
-		return (pos instanceof Position 
-				&& this.getCol()==((Position)pos).getCol() 
-				&& this.getFila()==((Position)pos).getFila());
+		return (pos instanceof Cochera 
+				&& this.getPiso()==((Cochera)pos).getPiso() 
+				&& this.getNroCochera()==((Cochera)pos).getNroCochera());
 	}
-	*/
+	
 }

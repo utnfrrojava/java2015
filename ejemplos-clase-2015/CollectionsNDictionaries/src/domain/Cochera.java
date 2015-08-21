@@ -26,10 +26,8 @@ public class Cochera {
 	
 	@Override
 	public int hashCode(){
-		return Character.hashCode(getPiso())*Integer.hashCode(getNroCochera());
-		
+		return Character.hashCode(getPiso())*Integer.hashCode(getNroCochera());	
 	}
-	
 	
 	@Override
 	public boolean equals (Object pos){

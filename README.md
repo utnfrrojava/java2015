@@ -6,6 +6,9 @@ Aquí podrán encontrar los ejemplos dictados en clase, información relacionada
 ## Trabajo Práctico 2015
 En [tp2015/enunciado.md](./tp2015/enunciado.md) van a poder encontrar el enunciado del trabajo práctico del año 2015.
 
+## Sistema Final
+Las condiciones del sistema final de la materia pueden encontrarse en [este link](https://goo.gl/BifevO).
+
 ## Clases
 En el directorio [ejemplos-clase-2015](./ejemplos-clase-2015/) van a poder encontrar los ejercicios realizados en clase
 

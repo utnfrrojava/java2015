@@ -9,7 +9,7 @@ Los siguientes links son tutoriales de Java principalmente orientados a web
   4. [Videotutorial Servlets y JSP](https://www.youtube.com/watch?v=ARsfnwfc_Pw): Video tutorial para desarrollo web en Java desde cero
   5. [Tutoriales varios](http://www.tutorialspoint.com/java_technology_tutorials.htm): Tutoriales de Java desde temas básicos hasta avanzados
   6. [GWT](http://www.tutorialspoint.com/gwt/index.htm): Tecnología de desarrollo de sitios web de Google que permite desarrollar en Java y compila a Javascript para incluirlo en la web. No requiere conocimiento de Javascript
-  7.
+  7. [Java+Angular](http://examples.javacodegeeks.com/core-java/real-time-applications-angularjs-java-part-1/): Ejemplo de uso de Java para backend y Angular para presentación intercambiando información vía JSON.
 
 ###Web
 Los siguientes links son a tutoriales de desarrollo de sitios web independientes del lenguaje de backend utilizado

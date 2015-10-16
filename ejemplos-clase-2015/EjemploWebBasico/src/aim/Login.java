@@ -35,11 +35,11 @@ public class Login extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
-		//String email=request.getParameter("email");
-		//String pass=request.getParameter("pass");
+		String email=request.getParameter("email");
+		String pass=request.getParameter("pass");
 		//response.getWriter().append(email).append(": ").append(pass);
 		
-		request.setAttribute("user", "probando");
+		request.setAttribute("user", "Adrián");
 		request.getRequestDispatcher("redirected.jsp").forward(request, response);
 	}
 
